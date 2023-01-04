@@ -1,0 +1,505 @@
+@font-face {
+  font-family: poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+/* ==================variable=========================== */
+:root {
+  --primary-color: #fcc302;
+  --header-color: #daac00;
+  --btn-color: #00bec9;
+  --white-color: #ffffff;
+  --heading-color: #313243;
+  --text-color: #686975;
+  --blog-date-read-color: #44cfd7;
+  --footer-color: #343434;
+  --bg-none: transparent;
+  --buy-btn-bg: #00bec9;
+  --border-color: #d6d6d6;
+}
+
+/* ================common css code start================================ */
+body {
+  background: var(--primary-color);
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+.btn {
+  padding: 25px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+/* ================common css code end================================ */
+
+/* =====================header code start============================= */
+.header {
+  display: flex;
+  align-items: center;
+  background: var(--header-color);
+  padding: 33px;
+  width: 100%;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container ul {
+  display: flex;
+  align-items: center;
+}
+.header .container a {
+  font-size: 29px;
+  margin: 5px;
+  margin-top: 5px;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+#search-box {
+  padding: 18px;
+  background: var(--primary-color);
+  border: none;
+  outline: none;
+  color: var(--white-color);
+  font-size: 14px;
+}
+#search-box::placeholder {
+  color: var(--white-color);
+}
+#search-btn {
+  background: var(--btn-color);
+  height: 50px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* =====================header code end============================= */
+/* =====================banner code start============================= */
+.banner {
+  margin: 5rem;
+}
+.banner .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner .container .text-btn-area {
+  width: 60%;
+}
+.banner .container .text-btn-area h2 {
+  font-size: 66px;
+  color: var(--white-color);
+}
+.banner .container .text-btn-area p {
+  font-size: 30px;
+  color: var(--white-color);
+}
+.banner .container .image-area {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-btns .contact-btn {
+  background: var(--btn-color);
+  color: var(--white-color);
+  border: none;
+  margin-top: 50px;
+}
+.banner-btns .service-btn {
+  background: var(--bg-none);
+  color: var(--white-color);
+  border: 2px solid var(--white-color);
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.banner .container .image-area img {
+  height: 500px;
+}
+/* =====================banner code end============================= */
+/* =====================service area 1 code start============================= */
+.our-service-area-1 {
+  margin: 120px 0;
+  background: var(--white-color);
+}
+.our-service-area-1 .container {
+  display: flex;
+  padding: 140px 0;
+  display: flex;
+  align-items: center;
+}
+.our-service-area-1 .container .text-area {
+  margin-left: 1.5rem;
+  width: 50%;
+}
+.our-service-area-1 .container .text-area h2 {
+  font-size: 50px;
+  line-height: 3.4rem;
+}
+.our-service-area-1 .container .text-area p {
+  font-size: 30px;
+  margin: 50px 0;
+}
+.our-service-area-1 .container .text-area .servise-btn {
+  color: var(--white-color);
+  background: var(--primary-color);
+  border: none;
+}
+.our-service-area-1 .container .video-area {
+  width: 45%;
+  padding: 1.5rem;
+}
+.our-service-area-1 .container .video-area img {
+  width: 100%;
+}
+/* =====================service area 1 code end============================= */
+/* =====================our service area code start============================= */
+.our-service .container h2 {
+  font-size: 75px;
+  color: var(--white-color);
+  text-align: center;
+}
+.our-service .container p {
+  font-size: 33px;
+  color: var(--white-color);
+  text-align: center;
+}
+.service-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.service-card .card {
+  width: 30%;
+  margin-top: 100px;
+}
+.service-card .card img {
+  width: 100%;
+}
+.service-card .card h2 {
+  font-size: 37px;
+  margin-top: 50px;
+}
+.service-card .card p {
+  font-size: 25px;
+  margin-top: 25px;
+}
+/* =====================our service area code end============================= */
+/* =====================service area 2 code start============================= */
+.our-service-area-2 {
+  margin: 120px 0;
+  background: var(--white-color);
+}
+.our-service-area-2 .container {
+  display: flex;
+  padding: 140px 0;
+  display: flex;
+  align-items: center;
+}
+.our-service-area-2 .container .text-area {
+  margin-left: 1.5rem;
+  width: 50%;
+}
+.our-service-area-2 .container .text-area h2 {
+  font-size: 50px;
+  line-height: 3.4rem;
+  text-align: right;
+}
+.our-service-area-2 .container .text-area p {
+  font-size: 30px;
+  margin: 50px 0;
+  text-align: right;
+}
+.our-service-area-2 .container .text-area .servise-btn {
+  color: var(--white-color);
+  background: var(--primary-color);
+  border: none;
+  float: right;
+}
+.our-service-area-2 .container .video-area {
+  width: 45%;
+  padding: 1.5rem;
+}
+.our-service-area-2 .container .video-area img {
+  width: 100%;
+}
+/* =====================service area 2 code end============================= */
+/* =====================our product area code start============================= */
+.our-product .container h2 {
+  font-size: 75px;
+  color: var(--white-color);
+  text-align: center;
+}
+.our-product .container p {
+  font-size: 33px;
+  color: var(--white-color);
+  text-align: center;
+}
+.product-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.product-card .card {
+  width: 30%;
+  margin-top: 100px;
+}
+.product-card .card img {
+  width: 100%;
+}
+.product-card .card h2 {
+  font-size: 37px;
+  margin-top: 40px;
+  position: relative;
+}
+.product-card .card h2::before {
+  content: "";
+  height: 4px;
+  width: 80px;
+  background: var(--white-color);
+  position: absolute;
+  top: 27px;
+  left: 90px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.product-card .card .buy-btn {
+  font-size: 25px;
+  margin-top: 25px;
+  padding: 20px 40px;
+  background: var(--buy-btn-bg);
+  color: var(--white-color);
+  border-radius: 40px;
+  text-align: center;
+}
+/* =====================our product area code end============================= */
+/* =====================our team area code start============================= */
+.our-team {
+  width: 100%;
+  margin-top: 100px;
+  background: var(--white-color);
+  padding-bottom: 100px;
+}
+.our-team .container h2 {
+  font-size: 75px;
+  color: var(--heading-color);
+  text-align: center;
+}
+.our-team .container p {
+  font-size: 33px;
+  color: var(--heading-color);
+  text-align: center;
+}
+.team-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team-card .card {
+  width: 30%;
+  margin-top: 100px;
+}
+.team-card .card img {
+  width: 100%;
+}
+.team-card .card h2 {
+  font-size: 37px;
+  margin-top: 40px;
+  position: relative;
+}
+.team-card .card ul li {
+  text-align: center;
+}
+.team-card .card ul li img {
+  width: 35px;
+  height: 35px;
+}
+
+/* =====================our team area code end============================= */
+
+/* =====================our testimotial area code start============================= */
+.our-testimotial {
+  background-image: url("../images/background-img.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.testimotial-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.testimotial-card .card {
+  width: 30%;
+  padding: 160px 0;
+}
+.testimotial-card .card img {
+  height: 90px;
+  width: 90px;
+}
+
+.testimotial-card .card h2 {
+  font-size: 40px;
+  margin-top: 40px;
+  color: var(--white-color);
+}
+.testimotial-card .card p {
+  font-size: 37px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: var(--white-color);
+}
+.testimotial-card .card {
+  text-align: center;
+}
+
+/* =====================our testimotial area code end============================= */
+/* =====================our recently post area code start============================= */
+.recently-post {
+  background: var(--white-color);
+}
+.recently-post .container .mail-title {
+  font-size: 75px;
+  color: var(--heading-color);
+  text-align: center;
+  padding-top: 130px;
+}
+.recently-post .container .main-description {
+  margin-top: 20px;
+  font-size: 33px;
+  color: var(--heading-color);
+  text-align: center;
+}
+.recently-post-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.recently-post-card .card {
+  width: 30%;
+  margin-top: 100px;
+  margin-bottom: 140px;
+}
+.recently-post-card .card img {
+  width: 100%;
+}
+.post-info {
+  border: 2px solid var(--border-color);
+  margin-top: -9px;
+  padding: 30px;
+}
+.post-info h2 {
+  font-size: 25px;
+  color: var(--heading-color);
+}
+.post-info p {
+  font-size: 16px;
+  color: var(--heading-color);
+  padding: 30px 0;
+}
+.post-info .date {
+  color: var(--blog-date-read-color);
+  margin-top: 20px;
+}
+.post-info .read-more {
+  color: var(--blog-date-read-color);
+  font-weight: 500;
+}
+/* =====================our recently post area code end============================= */
+/* =====================our footer area code end============================= */
+.footer {
+  background: var(--footer-color);
+}
+.footer-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-card .card {
+  width: 25%;
+  padding: 45px 0 120px;
+}
+.footer-card .card .about .title {
+  color: var(--white-color);
+  font-size: 37px;
+  line-height: 4rem;
+}
+.footer-card .card .about li {
+  color: var(--white-color);
+  display: block;
+  font-size: 25px;
+  line-height: 3.5rem;
+}
+.footer-card .card .service .title {
+  color: var(--white-color);
+  font-size: 37px;
+  line-height: 4rem;
+}
+.footer-card .card .service li {
+  color: var(--white-color);
+  display: block;
+  font-size: 25px;
+  line-height: 3.5rem;
+}
+.footer-card .card3 {
+  width: 45%;
+}
+.footer-card .card3 .subscribe .title {
+  color: var(--white-color);
+  text-align: right;
+  font-size: 37px;
+}
+.footer-card .card3 .description {
+  color: var(--white-color);
+  display: block;
+  text-align: right;
+  font-size: 25px;
+}
+.footer-card .card3 .subscribe .subscribe-area {
+  display: flex;
+  float: right;
+  height: 90px;
+  width: 530px;
+  margin: 50px 0;
+}
+.subscribe-area .subscribe-input {
+  width: 75%;
+  background: var(--primary-color);
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  color: var(--white-color);
+  font-size: 25px;
+}
+.subscribe-area .subcribe-btn {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: var(--buy-btn-bg);
+}
+.footer-social {
+  float: right;
+}
+.footer-social li img {
+  height: 45px;
+  width: 45px;
+  margin-left: 15px;
+}
