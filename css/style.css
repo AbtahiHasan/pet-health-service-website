@@ -186,11 +186,11 @@ a {
   text-align: center;
 }
 .service-card {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 .service-card .card {
-  width: 30%;
   margin-top: 100px;
 }
 .service-card .card img {
@@ -211,7 +211,6 @@ a {
   background: var(--white-color);
 }
 .our-service-area-2 .container {
-  display: flex;
   padding: 140px 0;
   display: flex;
   align-items: center;
@@ -256,11 +255,11 @@ a {
   text-align: center;
 }
 .product-card {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
 }
 .product-card .card {
-  width: 30%;
   margin-top: 100px;
 }
 .product-card .card img {
@@ -312,11 +311,11 @@ a {
   text-align: center;
 }
 .team-card {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 .team-card .card {
-  width: 30%;
   margin-top: 100px;
 }
 .team-card .card img {
@@ -344,11 +343,11 @@ a {
   width: 100%;
 }
 .testimotial-card {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 .testimotial-card .card {
-  width: 30%;
   padding: 160px 0;
 }
 .testimotial-card .card img {
@@ -389,11 +388,11 @@ a {
   text-align: center;
 }
 .recently-post-card {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 .recently-post-card .card {
-  width: 30%;
   margin-top: 100px;
   margin-bottom: 140px;
 }
@@ -428,11 +427,11 @@ a {
   background: var(--footer-color);
 }
 .footer-card {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 50px;
 }
 .footer-card .card {
-  width: 25%;
   padding: 45px 0 120px;
 }
 .footer-card .card .about .title {
@@ -459,6 +458,7 @@ a {
 }
 .footer-card .card3 {
   width: 45%;
+  margin-left: 300px;
 }
 .footer-card .card3 .subscribe .title {
   color: var(--white-color);
