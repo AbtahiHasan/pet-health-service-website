@@ -98,6 +98,13 @@ a {
   justify-content: center;
   align-items: center;
 }
+.navicons {
+  display: flex;
+  justify-content: space-between;
+}
+.navicons .toggle-bar {
+  display: none;
+}
 .search-bar {
   display: none;
 }

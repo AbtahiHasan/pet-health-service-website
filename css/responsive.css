@@ -32,6 +32,29 @@
   .navlinks {
     display: none;
   }
+  .header .container .navlinks.active {
+    display: block;
+    position: absolute;
+    top: 25%;
+    background: var(--footer-color);
+    width: 100%;
+    margin-left: -38px;
+  }
+  .header .container .navlinks.active ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .container .navlinks.active ul li {
+    line-height: 4rem;
+  }
+  .navicons .toggle-bar {
+    display: block;
+  }
+  .navicons .toggle-bar img {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+  }
   .banner {
     margin: 8px;
   }
