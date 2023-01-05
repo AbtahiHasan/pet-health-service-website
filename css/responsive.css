@@ -1,4 +1,32 @@
-@media (max-width: 1140px) {
+@media (max-width: 1000px) {
+  .search-bar {
+    display: block;
+  }
+  .search-bar i {
+    color: var(--white-color);
+    font-size: 25px;
+  }
+  .search {
+    display: none;
+  }
+  .search.active {
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: var(--footer-color);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .search.active input {
+    width: 80%;
+  }
+  .footer-card .card3 {
+    margin: 0;
+  }
 }
 @media (max-width: 800px) {
   .navlinks {
