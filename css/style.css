@@ -62,6 +62,10 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+}
 .header .container ul {
   display: flex;
   align-items: center;
@@ -144,14 +148,13 @@ a {
   background: var(--white-color);
 }
 .our-service-area-1 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 140px 0;
-  display: flex;
-  align-items: center;
+  gap: 20px;
 }
 .our-service-area-1 .container .text-area {
   margin-left: 1.5rem;
-  width: 50%;
 }
 .our-service-area-1 .container .text-area h2 {
   font-size: 50px;
@@ -167,7 +170,6 @@ a {
   border: none;
 }
 .our-service-area-1 .container .video-area {
-  width: 45%;
   padding: 1.5rem;
 }
 .our-service-area-1 .container .video-area img {
@@ -212,12 +214,11 @@ a {
 }
 .our-service-area-2 .container {
   padding: 140px 0;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .our-service-area-2 .container .text-area {
   margin-left: 1.5rem;
-  width: 50%;
 }
 .our-service-area-2 .container .text-area h2 {
   font-size: 50px;
@@ -236,7 +237,6 @@ a {
   float: right;
 }
 .our-service-area-2 .container .video-area {
-  width: 45%;
   padding: 1.5rem;
 }
 .our-service-area-2 .container .video-area img {
@@ -457,7 +457,6 @@ a {
   line-height: 3.5rem;
 }
 .footer-card .card3 {
-  width: 45%;
   margin-left: 300px;
 }
 .footer-card .card3 .subscribe .title {
@@ -475,7 +474,6 @@ a {
   display: flex;
   float: right;
   height: 90px;
-  width: 530px;
   margin: 50px 0;
 }
 .subscribe-area .subscribe-input {

@@ -1,0 +1,76 @@
+@media (max-width: 1140px) {
+}
+@media (max-width: 800px) {
+  .navlinks {
+    display: none;
+  }
+  .banner {
+    margin: 8px;
+  }
+  .banner .container .text-btn-area {
+    width: 100%;
+  }
+  .banner .container .text-btn-area h2 {
+    font-size: 30px;
+  }
+  .banner .container .image-area {
+    display: none;
+  }
+  .our-service-area-1 .container {
+    grid-template-columns: 1fr;
+  }
+  .service-card {
+    grid-template-columns: 1fr;
+  }
+  .our-service-area-2 {
+    padding: 20px;
+  }
+  .our-service-area-2 .container {
+    grid-template-columns: 1fr;
+  }
+  .product-card {
+    grid-template-columns: 1fr;
+  }
+  .team-card {
+    grid-template-columns: 1fr;
+  }
+  .testimotial-card {
+    grid-template-columns: 1fr;
+  }
+  .recently-post-card {
+    grid-template-columns: 1fr;
+  }
+  .footer-card {
+    grid-template-columns: 1fr;
+  }
+  .footer-card .card .about {
+    text-align: center;
+  }
+  .footer-card .card .service {
+    text-align: center;
+  }
+  .footer-card .card3 {
+    margin: 0;
+  }
+  .footer-card .card3 .subscribe .title {
+    text-align: center;
+  }
+  .footer-card .card3 .description {
+    text-align: center;
+  }
+  .footer-card .card3 .subscribe .subscribe-area {
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-left: 15%;
+  }
+  .subscribe-area .subscribe-input {
+    width: 100%;
+  }
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-left: 25%;
+  }
+}
